@@ -2,7 +2,59 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;        
+}
+
+center
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header
+{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid #16507b
+}
 
 a {
   color: #00B7FF;
+
+}
+h1 {
+    font-size: 28px;
+    color: #333;
+}
+link {
+    <link href= "style.css" rel="stylesheet" />
+}
+
+.menu {
+    width: 80px;
+    text-align: right;
+}
+    .menu a {
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu a:hover {
+    color: #007bff;
+}
+
+.menu .btn-menu{
+    background-color:#007bff;
+    display: inline-block;
+    padding:8px 16px;
+    color: white;
+    border-radius:8px;
+
 }
